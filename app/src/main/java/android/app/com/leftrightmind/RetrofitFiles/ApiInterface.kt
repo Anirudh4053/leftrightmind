@@ -1,15 +1,24 @@
 package android.app.com.leftrightmind.RetrofitFiles
 
 import android.app.com.leftrightmind.Global.CUSTBASEURL
+import android.app.com.leftrightmind.Model.DashResponse
+import android.app.com.leftrightmind.Model.LoginRequest
+import android.app.com.leftrightmind.Model.LoginResponse
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.logging.HttpLoggingInterceptor
+import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import retrofit2.http.*
 
 interface ApiInterface {
+    @POST("/shriramfa/api/v1.0/auth/login")
+    fun loginUser(@Body loginRequest: LoginRequest): Call<LoginResponse>
 
+    @GET("/shriramfa/api/v1.0/connections/connections/all?limit=10")
+    fun getData(@Header("Authorization") token:String, @Query("offset") offset:Int): Call<DashResponse>
 }
 
 object ApiUrl{
@@ -44,3 +53,4 @@ object ApiUrl{
     }
 
 }
+

@@ -12,6 +12,7 @@
             android:layout_height="wrap_content"
             android:inputType="number"
             android:ems="10"
+            android:textSize="@dimen/dm_editText"
             android:maxLength="10"
             android:hint="@string/g_phno"
             android:id="@+id/phnNumber" app:layout_constraintTop_toTopOf="parent"
@@ -24,6 +25,7 @@
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:hint="@string/g_pwd"
+            android:textSize="@dimen/dm_editText"
             android:id="@+id/pwd" android:layout_marginTop="8dp"
             app:layout_constraintTop_toBottomOf="@+id/phnNumber"
             app:layout_constraintEnd_toEndOf="@+id/phnNumber" app:layout_constraintStart_toStartOf="@+id/phnNumber"
@@ -31,7 +33,7 @@
     <Button
             android:text="@string/g_login"
             android:layout_width="0dp"
-            android:layout_height="wrap_content" android:id="@+id/loginBtn"
+            android:layout_height="@dimen/dm_btn_ht" android:id="@+id/loginBtn"
             app:layout_constraintTop_toBottomOf="@+id/pwd" app:layout_constraintStart_toStartOf="@+id/pwd"
             app:layout_constraintEnd_toEndOf="@+id/pwd" android:layout_marginTop="8dp" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent"/>

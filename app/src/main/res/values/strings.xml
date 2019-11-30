@@ -3,4 +3,5 @@
     <string name="g_phno">Enter Phone Number</string>
     <string name="g_pwd">Enter Password</string>
     <string name="g_login">Login</string>
+    <string name="title_activity_detail_page">Detail Page</string>
 </resources>
