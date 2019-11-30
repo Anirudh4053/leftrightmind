@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="nav_header_height_small">70dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="design_navigation_separator_vertical_padding" tools:override="true">5dp</dimen>
+    <!--toolbar title-->
+    <dimen name="dm_toolbar_title">16sp</dimen>
+    <!--toolbar title-->
+
+    <!--home-->
+    <dimen name="dm_title">16sp</dimen>
+    <dimen name="dm_sub_title">14sp</dimen>
+    <dimen name="dm_small_txt">12sp</dimen>
+    <!--home-->
+
+    <!--confirm purchase-->
+    <dimen name="dm_btn_ht">60dp</dimen>
+    <!--confirm purchase-->
+
+    <!--create account-->
+    <dimen name="dm_circle_size">14sp</dimen>
+    <dimen name="dm_editText">16sp</dimen>
+    <!--create account-->
+
+    <!--prod detail-->
+    <dimen name="dm_slider_ht">4sp</dimen>
+    <!--prod detail-->
+
+    <!--seekbar-->
+    <dimen name="seek_bar_thickness">2dp</dimen>
+    <dimen name="seek_bar_thumb_size">30dp</dimen>
+    <!--seekbar-->
+
+    <dimen name="simpletooltip_overlay_offset">0dp</dimen>
+    <dimen name="simpletooltip_padding">8dp</dimen>
+    <dimen name="simpletooltip_arrow_width">15dp</dimen>
+    <dimen name="simpletooltip_arrow_height">15dp</dimen>
+
+
+</resources>
